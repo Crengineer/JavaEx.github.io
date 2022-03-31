@@ -7,12 +7,19 @@ public class Vehicle {
     private int horsePower;
     private String driverLicence;
 
-    public Vehicle(String name, String model, int wheelNumber, int horsePower, String driverLicence) {
+    private int speed;
+    private String currentDirection;
+    private String status;
+
+    public Vehicle(String name, String model, int wheelNumber, int horsePower, String driverLicence, int speed, String currentDirection, String status) {
         this.name = name;
         this.model = model;
         this.wheelNumber = wheelNumber;
         this.horsePower = horsePower;
         this.driverLicence = driverLicence;
+        this.speed = speed;
+        this.currentDirection = currentDirection;
+        this.status = status;
     }
 
     //NAME GET & SET
@@ -59,5 +66,9 @@ public class Vehicle {
     public void setDriverLicence(String driverLicence) {
         this.driverLicence = driverLicence;
     }
+
+    // METHODS
+
+    public void steerRight
 
 }

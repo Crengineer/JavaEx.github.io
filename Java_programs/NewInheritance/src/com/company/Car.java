@@ -2,8 +2,8 @@ package com.company;
 
 public class Car extends Vehicle{
 
-    public Car(String name, String model, int wheelNumber, int horsePower, String driverLicence) {
-        super(name, model, wheelNumber=4, horsePower, driverLicence);
+    public Car(String name, String model, int wheelNumber, int horsePower, String driverLicence, int speed, String currentDirection, String status) {
+        super(name, model, wheelNumber, horsePower, driverLicence, speed, currentDirection, status);
     }
 
     @Override
